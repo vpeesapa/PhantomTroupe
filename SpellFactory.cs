@@ -7,7 +7,7 @@ namespace PhantomTroupe
     public enum Spells { /*Fireball,BlackHole,*/Meteor };
     //[RequireComponent(typeof(BlackHoleMaker))]
     //[RequireComponent(typeof(FireballMaker))]
-    [RequireComponent(typeof(MeteorMaker))]
+    [RequireComponent(typeof(PhantomMeteorMaker))]
 
     public class SpellFactory : MonoBehaviour
     {
@@ -26,7 +26,7 @@ namespace PhantomTroupe
             // else 
             if (Spells.Meteor == type)
             {
-                var fireball = this.GetComponent<MeteorMaker>().Make();
+                var fireball = this.GetComponent<PhantomMeteorMaker>().Make();
                 fireball.transform.position = this.transform.position;
             }
         }

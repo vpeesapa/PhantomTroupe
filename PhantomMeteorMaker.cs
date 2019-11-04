@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace PhantomTroupe
 {
-    public class MeteorMaker : MonoBehaviour, IFactorySpell
+    public class PhantomMeteorMaker : MonoBehaviour, IFactorySpell
     {
         [SerializeField] private GameObject prefab;
 

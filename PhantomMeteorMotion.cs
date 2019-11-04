@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace PhantomTroupe
 {
-    public class MeteorMotion : MonoBehaviour
+    public class PhantomMeteorMotion : MonoBehaviour
     {
         private float radius = 3.5f;
         private Vector3 center;
