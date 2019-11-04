@@ -43,7 +43,7 @@ namespace PhantomTroupe
             //     this.BuildSpell(Spells.Fireball);
             // }
             // else 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetKey("[1]"))
             {
                 this.BuildSpell(Spells.Meteor);
             }
